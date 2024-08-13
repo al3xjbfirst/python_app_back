@@ -4,7 +4,6 @@ import argparse
 # Define the database and the model
 db = SqliteDatabase('products.db')
 
-
 class ProductModel(Model):
     id = IntegerField(primary_key=True)
     name = CharField()
